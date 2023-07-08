@@ -1,0 +1,50 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RemObjects Fire
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "AWSAuthCore", "AWSAuthCore.elements", "{A4EF4313-CF01-441D-9D3A-612030DAC664}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "AWSCognito", "AWSCognito.elements", "{DBC1350B-466C-4322-AE4D-B8774612D6B8}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "AWSCognitoAuth", "AWSCognitoAuth.elements", "{1B6E6CAA-5704-467E-A38E-C1985F57F148}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "AWSCognitoIdentityProvider", "AWSCognitoIdentityProvider.elements", "{3FF95890-785B-47B1-B0C1-88D9D059CD7F}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "AWSCognitoIdentityProviderASF", "AWSCognitoIdentityProviderASF.elements", "{D5770A86-EF8C-4407-83C9-B9FF179CE923}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "AWSCore", "AWSCore.elements", "{8B6DF0C7-0D59-446A-9C3E-7AB293B45024}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4EF4313-CF01-441D-9D3A-612030DAC664}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{A4EF4313-CF01-441D-9D3A-612030DAC664}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{A4EF4313-CF01-441D-9D3A-612030DAC664}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{A4EF4313-CF01-441D-9D3A-612030DAC664}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{DBC1350B-466C-4322-AE4D-B8774612D6B8}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{DBC1350B-466C-4322-AE4D-B8774612D6B8}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{DBC1350B-466C-4322-AE4D-B8774612D6B8}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{DBC1350B-466C-4322-AE4D-B8774612D6B8}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{1B6E6CAA-5704-467E-A38E-C1985F57F148}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{1B6E6CAA-5704-467E-A38E-C1985F57F148}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{1B6E6CAA-5704-467E-A38E-C1985F57F148}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{1B6E6CAA-5704-467E-A38E-C1985F57F148}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{3FF95890-785B-47B1-B0C1-88D9D059CD7F}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{3FF95890-785B-47B1-B0C1-88D9D059CD7F}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{3FF95890-785B-47B1-B0C1-88D9D059CD7F}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{3FF95890-785B-47B1-B0C1-88D9D059CD7F}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{D5770A86-EF8C-4407-83C9-B9FF179CE923}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{D5770A86-EF8C-4407-83C9-B9FF179CE923}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{D5770A86-EF8C-4407-83C9-B9FF179CE923}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{D5770A86-EF8C-4407-83C9-B9FF179CE923}.Release|AnyCPU.Build.0 = Release|AnyCPU
+		{8B6DF0C7-0D59-446A-9C3E-7AB293B45024}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{8B6DF0C7-0D59-446A-9C3E-7AB293B45024}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{8B6DF0C7-0D59-446A-9C3E-7AB293B45024}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{8B6DF0C7-0D59-446A-9C3E-7AB293B45024}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

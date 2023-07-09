@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{4DA8FC52-A084-47C7-8938-E546C22D84D9}</ProjectGuid>
+    <BinaryName>AWSAppleSignIn</BinaryName>
+    <OutputType>Import</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Target)' == 'Toffee.iOS'">
+    <Mode>Toffee</Mode>
+    <SubMode>iOS</SubMode>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Target)' == 'Island.iOS'">
+    <Mode>Island</Mode>
+    <SubMode>Darwin</SubMode>
+    <SDK>iOS</SDK>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Reference Include="#" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImportFramework Include="aws-sdk-ios-2.33.1/AWSAppleSignIn.xcframework">
+      <Private>True</Private>
+    </ImportFramework>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Elements\RemObjects.Elements.targets" />
+</Project>

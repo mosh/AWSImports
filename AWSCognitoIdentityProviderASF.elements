@@ -5,6 +5,7 @@
     <OutputType>Import</OutputType>
     <RootNamespace>AWSCognitoIdentityProviderASF</RootNamespace>
     <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
+    <ImportCodeGen>Oxygene</ImportCodeGen>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Target)' == 'Toffee.iOS' ">
     <Mode>Toffee</Mode>

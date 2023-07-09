@@ -30,16 +30,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="#" />
+    <ProjectReference Include="AWSCognitoIdentityProvider.elements">
+      <HintPath>Bin\Debug\iOS\arm64\AWSCognitoIdentityProvider.fx</HintPath>
+      <Project>{3FF95890-785B-47B1-B0C1-88D9D059CD7F}</Project>
+      <ProjectFile>AWSCognitoIdentityProvider.elements</ProjectFile>
+      <Private>True</Private>
+    </ProjectReference>
     <ProjectReference Include="AWSAuthCore.elements">
       <HintPath>Bin\Debug\iOS\arm64\AWSAuthCore.fx</HintPath>
       <Project>{A4EF4313-CF01-441D-9D3A-612030DAC664}</Project>
       <ProjectFile>AWSAuthCore.elements</ProjectFile>
       <Private>True</Private>
     </ProjectReference>
-    <ProjectReference Include="AWSCognitoIdentityProvider.elements">
-      <HintPath>Bin\Debug\iOS\arm64\AWSCognitoIdentityProvider.fx</HintPath>
-      <Project>{3FF95890-785B-47B1-B0C1-88D9D059CD7F}</Project>
-      <ProjectFile>AWSCognitoIdentityProvider.elements</ProjectFile>
+    <ProjectReference Include="AWSCore.elements">
+      <HintPath>Bin\Debug\iOS\arm64\AWSCore.fx</HintPath>
+      <Project>{8B6DF0C7-0D59-446A-9C3E-7AB293B45024}</Project>
+      <ProjectFile>AWSCore.elements</ProjectFile>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>

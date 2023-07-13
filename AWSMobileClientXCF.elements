@@ -42,6 +42,12 @@
       <ProjectFile>AWSCognitoIdentityProvider.elements</ProjectFile>
       <Private>True</Private>
     </ProjectReference>
+    <ProjectReference Include="AWSCore.elements">
+      <HintPath>Bin\Debug\iOS\arm64\AWSCore.fx</HintPath>
+      <Project>{8B6DF0C7-0D59-446A-9C3E-7AB293B45024}</Project>
+      <ProjectFile>AWSCore.elements</ProjectFile>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ImportFramework Include="aws-sdk-ios-2.33.1\AWSMobileClientXCF.xcframework">
